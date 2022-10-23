@@ -29,7 +29,9 @@
                     [#if vizitka.telefon?has_content]
                     <div><i class="las la-phone-alt"></i> <span>${vizitka.telefon}</span></div>
                     [/#if]
+                    [#if vizitka.web?has_content]
                     <div><i class="las la-globe"></i> <span>${vizitka.web}</span></div>
+                    [/#if]
                 </div>
             </div>
         </div>
